@@ -8,7 +8,7 @@ def start(message):
     bot.send_message(message.chat.id, '*Привет*', parse_mode='Markdown')
 
 
-@bot.message_handler(commands=['Yes or No?'])
+@bot.message_handler(commands=['Yes_or_No?'])
 def YesorNo(message):
     bot.send_message(message.chat.id, '_YES_', parse_mode='Markdown')
 
